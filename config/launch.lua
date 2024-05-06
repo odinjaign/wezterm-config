@@ -6,7 +6,7 @@ local options = {
 }
 
 if platform.is_win then
-	options.default_prog = { 'powershell' }
+	options.default_prog = { 'pwsh' }
 end
 
 return options
